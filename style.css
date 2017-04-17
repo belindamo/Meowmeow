@@ -1,0 +1,87 @@
+body {
+	background-color:#5DF9A1;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+#container {
+	position: relative;
+}
+
+canvas {
+    border:1px solid #000000; 
+	background-color:white;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 95%;
+}
+
+#title {
+	position: absolute;
+	font-size: 40px;
+	top:-6%;
+	left: 44%;
+
+}
+
+
+#description {
+	position: absolute;
+	font-size: 20px;
+	top:7.5%;
+	left: 36%;
+}
+
+#clear {
+	bottom: -1%;
+	left: 5%;
+	position:absolute;
+	width:5%;
+	cursor:pointer;
+	color:black;
+	font-size: 20px;
+}
+
+#clear:hover {
+	color: #FFC300;
+	text-shadow: 1px 1px;
+}
+
+#download {
+	bottom: 3%;
+	right: 3%;
+	position:absolute;
+	width:12%;
+	cursor:pointer;
+	color:black;
+	font-size: 20px;
+}
+
+#download:hover {
+	color: #FFC300;
+	text-shadow: 1px 1px;
+}
+
+
+@media only screen and (max-width:500px) {
+	#title {
+   		left:25%;
+   	}
+
+   	#description {
+   		left:20%;
+   	}
+
+   	#clear {
+   		left: 8%;
+   		bottom:-3%;
+   	}
+
+   	#download {
+   		bottom:1%;
+   		right:12%;
+   	}
+ }
+ 
