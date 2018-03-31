@@ -1,4 +1,4 @@
-## Meowmeow.pro
+## http://meowmeow.pro
 User can create a cat collage on a canvas. 
 Can restart the collage or download it.
 Uses event listeners, Javascript canvas, and many many cat photos.
